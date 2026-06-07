@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "mdf branco",
+      "preco": 769.99,
+      "descricao": "mdf branco 190cm x 200cm"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "vinicius dahmer kaneta",
+      "telefone": "",
+      "email": "",
+      "data_cadastro": "07/06/2026"
+    }
+  ],
+  "orcamentos": [
+    {
+      "id": 1,
+      "cliente_nome": "vinicius dahmer kaneta",
+      "data": "07/06/2026 12:05",
+      "itens": [
+        {
+          "produto_nome": "mdf branco",
+          "preco_unitario": 769.99,
+          "quantidade": 5,
+          "subtotal": 3849.95
+        }
+      ],
+      "total": 3849.95,
+      "desconto": 0.0,
+      "valor_final": 3849.95,
+      "status": "Vendido"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "orcamento_id": 1,
+      "cliente_nome": "vinicius dahmer kaneta",
+      "data": "07/06/2026 12:05",
+      "itens": [
+        {
+          "produto_nome": "mdf branco",
+          "preco_unitario": 769.99,
+          "quantidade": 5,
+          "subtotal": 3849.95
+        }
+      ],
+      "valor_original": 3849.95,
+      "desconto": 0.0,
+      "valor_final": 3849.95,
+      "forma_pagamento": "A definir"
+    }
+  ]
+}
